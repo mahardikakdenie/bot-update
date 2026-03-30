@@ -30,4 +30,4 @@ jobs:
           git add README.md
           
           # Cek apakah ada perubahan sebelum commit, untuk mencegah error
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: auto-update README per hari [skip ci]" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: auto-update README per hari [skip ci]" && git push origin main)
